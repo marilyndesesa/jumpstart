@@ -44,7 +44,21 @@ h3{
   background-color: #f8f8f8;
 }
 
+@media only screen and (max-width: 767px){
+  .navbar  img{
+    display: none;
+  }
+}
 /* jumbotron text */
+.jumbotron{
+  background-image: url('../images/jumbotron-bike.jpg');
+  width: 100%;
+  height: auto;
+  padding: 11.85rem 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
 .jumbotron h1, .jumbotron p{
   color: white;
   text-align: center;
@@ -57,18 +71,20 @@ h3{
 }
 
 .jumbotron p{
-  max-width: 51.3rem;
+  max-width: 70rem;
   margin: 0 auto;
   padding-bottom: 2.8rem
 }
 
-.jumbotron{
-  background-image: url('../images/jumbotron-bike.jpg');
-  width: 100%;
-  height: auto;
-  padding: 11.85rem 0;
-  text-align: center;
+@media only screen and (max-width: 767px){
+  .jumbotron{
+    margin-top: 135px;
+  }
+  .jumbotron h1{
+    font-size: 5.7rem;
+  }
 }
+
 /* slider images */
 
 /* featured content */
