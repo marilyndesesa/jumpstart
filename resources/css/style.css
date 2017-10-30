@@ -3,6 +3,32 @@ body{
   font-family: "Open Sans";
 }
 
+.btn{
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  padding: 1.3rem 0;
+  width: 11.4rem;
+}
+
+button:hover{
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+button:active{
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+h2{
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: bold;
+}
 /* nav */
 .navbar-default .navbar-nav>.active>a{
   background-color: #f8f8f8;
@@ -41,15 +67,28 @@ body{
   width: 100%;
   height: auto;
   padding: 11.85rem 0;
+  text-align: center;
 }
 /* slider images */
 
 /* featured content */
+.projects{
+  padding-bottom: 6rem;
+}
+
 .image-container img{
   opacity: 0.7;
   width: 100%;
 }
 
+#product-cat h3{
+  color: #399bd1;
+}
+
+#product-cat li{
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
 
 /* supporting content */
 
@@ -57,4 +96,16 @@ body{
 footer{
   background-color: #f3f3f3;
   text-align: center;
+  padding: 6rem 0;
+}
+
+footer h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+footer p{
+  width: 42rem;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
